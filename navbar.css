@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; 
+  color: #002652;
+  background-color: #F5F9FC;
+    font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial;
+}
+
+
+.nav-container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 1.6rem;
+  border-right: 1px solid #EBEEF4;
+  border-left: 1px solid #EBEEF4;
+  
+}
+
+.nav-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  font-size: 3.2rem; 
+  color: #002652;
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: bolder;
+}
+
+.nav-items ul {
+  display: flex;
+  font-size: 1.6rem; 
+  font-family: 'Roboto', sans-serif; 
+}
+
+.nav-items ul li {
+  list-style: none;
+  padding: 1rem 2rem;
+}
+
+.nav-items ul li a {
+  text-decoration: none;
+  color: #002652;
+  font-weight: bold;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+button {
+  border: none;
+  //background-color: #5F5BFE;
+  font-size: 1.6rem;
+  padding: 1rem;
+  color: #002652;
+}
+
+.contact-sales-button {
+  margin-right: 0.8rem;
+  border: none;
+  background-color: inherit;
+  font-weight: bold;
+}
+
+.sign-in-button {
+  color: white;
+  border-radius: 2rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+ // mix-blend-mode: screen;
+  opacity: 0.98;
+  cursor: pointer;
+  background-color: #5F5BFE !important;
+}
+
+.sign-in-button:hover {
+  animation: grow 0.3s ease;
+
+  @keyframes grow {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.1);
+    }
+  }
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-SemiBold.woff2') format('woff2'); /* Specify the font file */
+}
+
+
+.main-article-section{
+    max-width: 120rem; 
+  margin: 0 auto;
+  padding: 1.6rem;
+  border-right: 1px solid #EBEEF4;
+  border-left: 1px solid #EBEEF4;
+  border-bottom:1px solid #EBEEF4;
+  min-height: 88vh;
+}
+.div-article-section{
+  margin-top: 8.4rem;
+}
+/* .flex-childs{
+  display: flex;
+  flex-direction: column;
+} */
+
+.pricing-hero-text{
+ // background-color: #5F5BFE;
+  font-size: 4.1rem;
+  max-width: 70%;
+  margin-bottom:5.2rem;
+}
+.pricing-hero-text h2{
+  color: #002652;
+    font-weight: bold; /* Inherited from font family */
+  font-family: 'Montserrat', sans-serif;
+  line-height: 6.8rem;
+}
+
+.pricing-boxes{
+  display: flex;
+}
+
+.box-1,.box-2{
+  display: flex;
+  flex-grow: 1;
+  border-radius: 1rem;
+}
+
+.box-1{
+  background-color: white;
+  margin-right: 1.6rem;
+}
+.standard-button-box, .custom-button-box{
+  padding: 3.2rem;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   max-width: 26rem;
+}
+
+.standard-text{
+  color: #002652;
+  font-weight: bold;
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.para{
+  color: #536A79;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-bottom:1.8rem ;
+  font-weight: 500;
+}
+
+.card-boxes{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  
+  min-height: auto;
+  padding: 0.5rem;
+  
+  
+}
+.card-issued, .another-card-issued{
+  background-color: #F5F9FC;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  color: #002652;
+  border-radius: 1rem;
+}
+
+.card-issued{
+  margin-bottom: 0.5rem;
+}
+
+.two-percent, .three-percent{
+font-size: 3rem;
+font-weight: bold;
+}
+
+.two-percent-below-text, .three-percent-below-text{
+    color: #536A79;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-bottom:1.8rem ;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.box-2{
+    background-color: #002F4E;
+  border: 1px solid #002F4E; 
+  border-radius: 1rem; 
+}
+
+.custom-text{
+    color: white;
+  font-weight: bold;
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+.para-2{
+    color: #96AFBF;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  margin-bottom:4.2rem ;
+  font-weight: 500;
+}
+.three-container-box{
+  background-color: #002F4E;
+   display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  
+  min-height: auto;
+  padding: 0.5rem;
+}
+.volume-discount-box,.multiple-product-discount,.country-specific{
+   background-color:#014568 ;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  color: #F5F9FC;
+  border-radius: 1rem;
+  font-size: 1.7rem;
+
+}
+
+.volume-discount-box,.multiple-product-discount{
+  margin-bottom: 0.5rem;
+}
